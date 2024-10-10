@@ -42,7 +42,7 @@ public class Scoreboard extends JavaPlugin {
 
         String title = getConfig().getString("scoreboard.title");
         if (title == null) {
-            getLogger().severe("Fehler: Kein Titel für das Scoreboard in der Konfiguration gefunden.");
+            getLogger().severe("Fehler: Kein Titel für das Scoreboard in der Config gefunden.");
             return;
         }
 
@@ -59,7 +59,7 @@ public class Scoreboard extends JavaPlugin {
                 try {
                     scoreValue = Integer.parseInt(parts[1].trim());
                 } catch (NumberFormatException e) {
-                    getLogger().severe("Ungültiges Score-Format in der Konfiguration: " + entry);
+                    getLogger().severe("Ungültiges Format in der Config: " + entry);
                     continue;
                 }
 
@@ -68,7 +68,7 @@ public class Scoreboard extends JavaPlugin {
                 Score scoreItem = objective.getScore(processedText);
                 scoreItem.setScore(scoreValue);
             } else {
-                getLogger().severe("Ungültiges Score-Format in der Konfiguration: " + entry);
+                getLogger().severe("Ungültiges Format in der Config: " + entry);
             }
         }
 
