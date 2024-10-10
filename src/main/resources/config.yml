@@ -1,0 +1,11 @@
+########################################################################
+# Scoreboard Plugin 1.0                                                #
+# made with love by https://github.com/publiccode1337/scoreboardplugin #
+# https://discord.gg/dreamwyld                                         #
+########################################################################
+
+scoreboard:
+  title: "&x&C&A&0&5&F&Bꜱ&x&B&4&0&9&F&Bᴄ&x&9&D&0&D&F&Cᴏ&x&8&7&1&1&F&Cʀ&x&7&0&1&5&F&Dᴇ&x&5&A&1&9&F&Dʙ&x&4&3&1&D&F&Eᴏ&x&2&D&2&1&F&Eᴀ&x&1&6&2&5&F&Fʀ&x&0&0&2&9&F&Fᴅ"
+  scores:
+    - '&4YouTube: &cKxmischerDude'
+    - '&9Discord: &c.gg/dreamwyld'

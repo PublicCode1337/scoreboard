@@ -1,0 +1,6 @@
+name: scoreboard
+version: '1.0-SNAPSHOT'
+main: de.drxem.cerya.scoreboard.Scoreboard
+api-version: '1.21'
+softdepend:
+  - PlaceholderAPI
